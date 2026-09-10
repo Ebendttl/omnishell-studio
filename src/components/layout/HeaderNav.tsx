@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Terminal, Command, Cpu, Sparkles, Github, ShieldCheck } from "lucide-react";
+import { Terminal, Command, Cpu, Sparkles, GitBranch, ShieldCheck } from "lucide-react";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
 interface HeaderNavProps {
@@ -75,7 +75,7 @@ export function HeaderNav({ onOpenCommandPalette }: HeaderNavProps) {
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-xs font-medium text-slate-400 hover:text-white transition-colors px-2.5 py-1.5 rounded-lg border border-slate-800 hover:border-slate-700"
           >
-            <Github className="w-4 h-4" />
+            <GitBranch className="w-4 h-4" />
             <span className="hidden sm:inline">Source</span>
           </a>
 
