@@ -21,7 +21,7 @@ import {
   Zap,
   CheckCircle2,
   ArrowRight,
-  Github,
+  GitBranch,
   Download,
   Layers,
   Keyboard,
@@ -337,7 +337,7 @@ function PageContent() {
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 hover:text-white transition-colors"
             >
-              <Github className="w-4 h-4" />
+              <GitBranch className="w-4 h-4" />
               <span>GitHub Repository</span>
             </a>
 
